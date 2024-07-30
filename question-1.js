@@ -1,5 +1,11 @@
 function findStudentById(students, id) {
   // Your code here
+  for (const i of students) {
+    if(i.id === id){
+      return i
+    }
+  }
+  return null
 }
 
 // Test case
